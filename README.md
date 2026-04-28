@@ -1,10 +1,10 @@
-# 📊 Customer Churn Prediction & Retention Intelligence Dashboard
+#  Customer Churn Prediction & Retention Intelligence Dashboard
 
 An end-to-end Machine Learning + Streamlit application that predicts customer churn probability and provides actionable retention strategies in real-time.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 Customer churn is a critical problem for subscription-based businesses. This project helps in:
 - **Predicting** customer churn probability
 - **Classifying** customers into risk categories
@@ -13,19 +13,19 @@ Customer churn is a critical problem for subscription-based businesses. This pro
 
 ---
 
-## 🧠 Features
-- 📈 **Churn Prediction Model**: Built using Scikit-learn (Features: Age, Gender, Tenure, Monthly Charges).
-- 📊 **Interactive Dashboard**: Real-time updates with a clean KPI-based UI.
-- 🕒 **Visualizations**: Gauge chart visualization using Plotly for instant risk assessment.
-- ⚠️ **Risk Segmentation**: 
+##  Features
+-  **Churn Prediction Model**: Built using Scikit-learn (Features: Age, Gender, Tenure, Monthly Charges).
+-  **Interactive Dashboard**: Real-time updates with a clean KPI-based UI.
+-  **Visualizations**: Gauge chart visualization using Plotly for instant risk assessment.
+-  **Risk Segmentation**: 
     - **Healthy**: (<30%)
     - **Watchlist**: (30%–70%)
     - **High Risk**: (>70%)
-- 🎯 **Retention Offer Generator**: Suggests discounts based on customer value to simulate real-world business decision-making.
+-  **Retention Offer Generator**: Suggests discounts based on customer value to simulate real-world business decision-making.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend**: Streamlit
 - **Machine Learning**: Scikit-learn
 - **Visualization**: Plotly
@@ -34,13 +34,13 @@ Customer churn is a critical problem for subscription-based businesses. This pro
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - **Source**: Kaggle Telecom Customer Churn Dataset
 - **Link**: [Telecom Customer Churn Insights](https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 Customer-Churn-Dashboard/
 │── app.py             # Main Streamlit application
@@ -52,7 +52,7 @@ Customer-Churn-Dashboard/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -72,7 +72,7 @@ streamlit run app.py
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 1. **Input**: User enters customer details (Age, Tenure, Charges) via the sidebar.
 2. **Processing**: Data is scaled using the pre-trained `scaler.pkl`.
 3. **Prediction**: The model predicts the churn probability.
@@ -81,13 +81,13 @@ streamlit run app.py
 
 ---
 
-## 📌 Retention Strategy Logic
+##  Retention Strategy Logic
 *   **High-value customer + High risk** → 25% discount offer.
 *   **Medium-value customer** → 15% discount offer.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Add advanced ML models like **XGBoost** or **Deep Learning**.
 - Deploy on cloud platforms (**AWS / GCP / Azure**).
 - Integrate **real-time databases** for persistent customer tracking.
@@ -95,7 +95,7 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Srushti Joshi**
 
 ⭐ If you like this project, give it a star on GitHub and feel free to contribute!
